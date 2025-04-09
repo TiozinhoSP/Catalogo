@@ -2,101 +2,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Stereolove Catálogo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stereolove Records</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Inter', sans-serif;
       background-color: #f5f5f5;
       margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
       padding: 20px;
-    }
-    h1 {
       text-align: center;
-      color: #333;
     }
-    .catalog {
+
+    header img {
+      height: 50px;
+      vertical-align: middle;
+    }
+
+    h1 {
+      display: inline;
+      margin-left: 15px;
+      font-size: 24px;
+    }
+
+    .catalogo {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
       gap: 20px;
-      margin-top: 30px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
     }
+
     .item {
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      padding: 16px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 10px;
     }
-    .item .gallery {
-      display: flex;
-      gap: 8px;
-      overflow-x: auto;
-      margin-bottom: 12px;
-    }
-    .item .gallery img {
-      width: 350px;
-      height: 350px;
+
+    .item img {
+      width: 100px;
+      height: 100px;
       object-fit: cover;
-      border-radius: 12px;
-      flex-shrink: 0;
+      border-radius: 6px;
+      margin-bottom: 10px;
     }
-    .info p {
-      margin: 4px 0;
-      font-size: 14px;
+
+    .item p {
+      font-size: 12px;
+      margin: 0;
     }
-    .info .title {
-      font-size: 16px;
-      font-weight: bold;
-    }
-    .info .price {
-      color: #d10000;
-      font-weight: bold;
+
+    .item a {
+      color: #333;
+      text-decoration: none;
+      font-weight: 600;
     }
   </style>
 </head>
 <body>
-  <h1>Catálogo Stereolove</h1>
-  <div class="catalog">
+  <header>
+    <img src="images/logo-stereolove.png" alt="Stereolove Records">
+    <h1>Stereolove Records</h1>
+  </header>
+
+  <div class="catalogo">
     <div class="item">
-      <div class="gallery">
-        <img src="images/Jorge_Ben_Bolado_Frente.png" alt="Jorge Ben - Bolado 1">
-        <img src="images/Jorge_Ben_Bolado_Verso.png" alt="Jorge Ben - Bolado 2">
-        <img src="images/Jorge_Ben_Bolado_Disco_A.png" alt="Jorge Ben - Bolado 3">
-      </div>
-      <div class="info">
-        <p class="title">Jorge Ben - Bolado</p>
-        <p><strong>Músicas:</strong> A Side - Caramba Galileu da Galiléia / B Side - Tá na Hora</p>
-        <p><strong>Label:</strong> PHILIPPINES RECORDS</p>
-        <p><strong>Cat Number:</strong> 00031</p>
-        <p class="price">Price: 9 Euro</p>
-        <p><strong>Genre:</strong> BOSSA/SAMBA-ROCK/LATIN JAZZ/MPB</p>
-        <p><strong>Estoque NL:</strong> 100 / <strong>BR:</strong> 100</p>&nbsp;
-        <p><strong>Descrição:</strong> Jorge Ben Jor é um dos nomes mais icônicos da música brasileira, considerado um dos pioneiros da mistura entre samba, bossa nova, jazz e rock.<p>
-<p>Nascido como Jorge Duilio Lima Menezes em 22 de março de 1939, no Rio de Janeiro, ele se destacou pela sua inovadora fusão de ritmos e pela criação de um estilo único.<p>
-<p>Sua carreira começou nos anos 1950, mas foi nos anos 1960 que ele alcançou grande sucesso, com músicas que se tornaram clássicos, como "Mas, Que Nada", "Que Maravilha" e "Chove Chuva".<p>
-<p>Uma curiosidade interessante sobre Jorge Ben Jor é que ele foi um dos primeiros a incorporar o uso do violão de sete cordas em suas músicas, dando um som característico ao seu estilo.<p>
-<p>Além disso, ele tem uma relação forte com a música africana, algo que ficou evidente em várias de suas composições, refletindo seu interesse por ritmos afro-brasileiros.<p>
-<p>Jorge Ben Jor também ficou famoso por sua energia contagiante nos palcos e por suas letras que celebravam a vida, o amor e a alegria, elementos que ainda hoje marcam a música brasileira.<p>
-<p>Mesmo com tantos sucessos, ele sempre manteve uma atitude irreverente e criativa, nunca se prendendo a convenções.<p>
-<p>"Lançado apenas no Japão pela Phillips em 1972, On Stage é um disco ao vivo gravado na terra do sol nascente. Com o tempo, tornou-se objeto de culto.<p>
-<p>O vinil original é raro. É o grande registro de Jorge Ben em cima de um palco.<p>
-<p>On Stage é um disco sobrenatural. Jorge Ben e seu incisivo violão, acompanhados “apenas” pelo Trio Mocotó – o grande power-trio da música brasileira.</p><p>
-      &nbsp;<p><strong>Description:</strong> Jorge Ben Jor is one of the most iconic names in Brazilian music, considered one of the pioneers of the mix of samba, bossa nova, jazz and rock.<p> 
-<p>Born as Jorge Duilio Lima Menezes on March 22, 1939, in Rio de Janeiro, he stood out for his innovative fusion of rhythms and the creation of a unique style.<p> 
-<p>His career began in the 1950s, but it was in the 1960s that he achieved great success, with songs that became classics, such as "Mas, Que Nada", "Que Maravilha" and "Chove Chuva".<p>
-<p>An interesting fact about Jorge Ben Jor is that he was one of the first to incorporate the use of the seven-string guitar in his songs, giving a characteristic sound to his style.<p>
-<p> In addition, he has a strong connection with African music, something that was evident in several of his compositions, reflecting his interest in Afro-Brazilian rhythms.<p>
-<p>Jorge Ben Jor also became famous for his contagious energy on stage and for his lyrics that celebrated life, love and joy, elements that still mark Brazilian music today. 
-<p>Even with so many hits, he always maintained an irreverent and creative attitude, never being bound by conventions.<p>
-<p>"Released only in Japan by Phillips in 1972, On Stage is a live album recorded in the land of the rising sun. Over time, it became a cult object.<p>
-<p>The original vinyl is rare. It is the greatest recording of Jorge Ben on Stage.<p>
-<p>On Stage is a supernatural album. Jorge Ben and his incisive guitar, accompanied “only” by Trio Mocotó – the great power trio of Brazilian music</p>
-        <p><strong>Estoque NL:</strong> 100 / <strong>BR:</strong> 100</p>
-      </div>
+      <a href="jorge-ben-bolado.html">
+        <img src="images/Jorge_Ben_Bolado_Frente.png" alt="Jorge Ben - Bolado">
+        <p>Jorge Ben - Bolado</p>
+      </a>
     </div>
-    <!-- Adicione mais itens abaixo -->
+
+    <!-- Adicione outros discos aqui da mesma forma -->
+
   </div>
 </body>
 </html>
